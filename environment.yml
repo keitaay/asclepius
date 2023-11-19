@@ -1,0 +1,14 @@
+name: pulse
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - cmake
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - matplotlib
+      - openpyxl
+      - pycel
+prefix: /opt/miniconda3/envs/pulse
